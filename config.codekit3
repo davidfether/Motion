@@ -7,8 +7,21 @@
       "uuidString" : "2D98CC5F-45F9-46F2-8AEF-2F553619B0BE"
     }
   ],
-  "creatorBuild" : "34418",
+  "creatorBuild" : "34434",
   "files" : {
+    "\/assets\/daniel-leone-g30P1zcOzXo-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 833978,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/daniel-leone-g30P1zcOzXo-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -86,23 +99,8 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-<<<<<<< Updated upstream
       "oAP" : "\/deploy\/js\/scripts-min.js",
-=======
-      "oAP" : "\/deploy\/scripts-min.js",
->>>>>>> Stashed changes
       "oF" : 2,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/dev\/scripts-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/dev\/scripts-min-min.js",
-      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
@@ -271,12 +269,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/node_modules" : {
-      "ft" : 65536,
-      "oA" : 2,
-      "oAP" : "\/node_modules",
-      "oF" : 0
-    },
     "\/package-lock.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -302,7 +294,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 669227926.75338697,
-    "displayValue" : "Motion-F22-Josh",
+    "displayValue" : "Motion-F22-AM",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-ucla",
     "iconImageWasSetByUser" : 0
@@ -1012,7 +1004,8 @@
         "active" : 1
       },
       "no-fallthrough" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'allowEmptyCase': false}"
       },
       "no-floating-decimal" : {
         "active" : 0
