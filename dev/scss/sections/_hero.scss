@@ -1,33 +1,37 @@
 #hero {
-    background-image: url("../mountain_image.");
+    background-image: url("../img/hero.jpg");
     height: 80vh;
     background-size: cover;
     background-position: center bottom;
     display: flex;
     justify-content: center;
-    align-content: center;
-    text-align: center;
+    align-items: center;
 
     h1 {
-        color: (var(--white) margin: 0;
+        color: var(--white);
+        margin: 0;
+        font-size;
 
-                font-size; rem-calc(90) span {
-                //color rgba(255,255,255,0,25)
-                color rgba(var(--white0), 0.25);
-            }
+        rem-calc(90) @include md {
+            font-size: rem-calc(90);
+        }
+
+        span {
+            color rgba(255, 255, 255, 0.25);
         }
     }
+}
 
-    button {
-        border: none;
-        background-color: red color: white padding: 30px, 50px;
-        border-radius: 8px;
-        margin-top: 24px;
+button {
+    border: none;
+    background-color: red color: white padding: 30px, 50px;
+    border-radius: 8px;
+    margin-top: 24px;
+    font-size: rem-calc(25);
+    cursor: pointer;
+
+    @include md {
+        padding: 30px, 50px;
         font-size: rem-calc(25);
-        cursor: pointer;
-
-
-        @include md {
-            padding: font-size:
-        }
     }
+}
