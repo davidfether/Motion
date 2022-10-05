@@ -15,6 +15,7 @@ html {
   --black: #000;
   --white0: 225, 255, 255;
   --black0: 0, 0, 0;
+  --mintgreen: 129, 240, 149 ;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -403,3 +404,57 @@ textarea {
 /* =============
     Footer
 ============= */
+#hero {
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  background-position: center top;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+@media (min-width: 768px) {
+  #hero {
+    height: 70vh;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  #hero {
+    height: 60vh;
+  }
+}
+@media (min-width: 768px) {
+  #hero h1 {
+    margin: 0;
+    color: var(--white);
+    font-size: 5.625rem;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  #hero h1 {
+    font-size: 1.875rem;
+  }
+}
+@media (min-width: 768px) {
+  #hero h1 span {
+    color: rgba(var(--mintgreen));
+  }
+}
+@media (min-width: 768px) {
+  #hero h1 button-door {
+    border: none;
+    background-color: rgba(var(--mintgreen));
+    color: var(--white);
+    padding: 25x 40px;
+    border-radius: 32px;
+    margin-top: 24px;
+    font-size: 1.5625rem;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  #hero h1 {
+    padding: 20x 30px;
+    font-size: 1.25rem;
+  }
+}

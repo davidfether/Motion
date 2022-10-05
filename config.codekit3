@@ -42,6 +42,17 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
+    "\/deploy\/js\/scripts-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/js\/scripts-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/deploy\/js\/scripts.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -53,17 +64,16 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/_hero.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
+    "\/deploy\/scripts-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
       "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/_hero-min.css",
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/scripts-min-min.js",
       "oF" : 0,
-      "pg" : 0
+      "sC" : 3,
+      "tS" : 0
     },
     "\/dev\/content\/hero.html" : {
       "cB" : 0,
@@ -147,21 +157,6 @@
       "oF" : 3,
       "sC" : 3,
       "tS" : 0
-    },
-    "\/dev\/scss\/_hero.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/_hero.css",
-      "oF" : 3,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
     },
     "\/dev\/scss\/base\/_base.scss" : {
       "aP" : 0,
@@ -333,6 +328,21 @@
       "oA" : 0,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
       "oF" : 1,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_hero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/scss\/sections\/_hero.css",
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
