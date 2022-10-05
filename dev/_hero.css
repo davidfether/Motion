@@ -1,0 +1,16 @@
+#hero {
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  background-position: center top;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+h1 {
+  margin: 0;
+  color: var(--white);
+  font-size: rem-calc(70);
+}
