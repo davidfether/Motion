@@ -2,11 +2,21 @@
     background-image: url("../img/heroimage.jpg");
     background-size: cover;
     background-position: center;
+    height: 80vh;
 
     #overlay {
+        background-color: rgba(var--black0), 0.35);
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         section {
 
-            h1 {}
+            h1 {
+                color: var(--white);
+
+            }
 
             button {}
         }
