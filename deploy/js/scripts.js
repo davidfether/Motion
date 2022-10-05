@@ -2,6 +2,8 @@ import {
     gsap
 } from "gsap";
 
+console.log(gsap)
+
 gsap.from("header", {
     duration: 0.25,
     alpha: 0,
