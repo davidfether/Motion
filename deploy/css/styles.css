@@ -362,6 +362,10 @@ template {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "DM Mono", monospace;
+}
+
 h1,
 h2,
 h3,
