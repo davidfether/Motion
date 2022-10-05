@@ -14,3 +14,16 @@ h1 {
   color: var(--white);
   font-size: rem-calc(70);
 }
+
+span {
+  color: rgba(var(--mintgreen));
+}
+
+button {
+  border: none;
+  background-color: rgba(var(--mintgreen));
+  color: var(--white);
+  padding: 25x 40px;
+  border-radius: 90px;
+  font-size: rem-calc(25);
+}

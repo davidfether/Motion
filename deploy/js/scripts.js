@@ -1,7 +1,11 @@
 import {
     gsap
 } from "gsap";
-gsap.from("#header", {
+
+
+
+gsap.from("header", {
     duration: 0.25,
-    x: -300
+    alpha: 0,
+    y: -100
 });
