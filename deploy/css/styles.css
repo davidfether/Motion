@@ -416,45 +416,39 @@ textarea {
 }
 @media (min-width: 768px) {
   #hero {
-    height: 70vh;
+    height: 80vh;
   }
 }
-@media (min-width: 768px) and (min-width: 1024px) {
-  #hero {
-    height: 60vh;
-  }
-}
-@media (min-width: 768px) {
-  #hero h1 {
-    margin: 0;
-    color: var(--white);
-    font-size: 5.625rem;
-  }
-}
-@media (min-width: 768px) and (min-width: 768px) {
-  #hero h1 {
-    font-size: 1.875rem;
-  }
+
+h1 {
+  margin: 0;
+  color: var(--white);
+  font-size: 6.25rem;
 }
 @media (min-width: 768px) {
-  #hero h1 span {
-    color: rgba(var(--mintgreen));
+  h1 {
+    font-size: 3.125rem;
   }
 }
+
+span {
+  color: rgba(var(--mintgreen));
+}
+
+button {
+  border: none;
+  background-color: rgba(var(--mintgreen));
+  color: var(--white);
+  padding: 20x 80px;
+  border-radius: 90px;
+  margin-top: 24px;
+  font-size: 0.9375rem;
+}
 @media (min-width: 768px) {
-  #hero h1 button-door {
-    border: none;
-    background-color: rgba(var(--mintgreen));
-    color: var(--white);
-    padding: 25x 40px;
-    border-radius: 32px;
-    margin-top: 24px;
+  button {
+    padding: 15px 40px;
+    border-radius: 100px;
+    margin-top: 12px;
     font-size: 1.5625rem;
-  }
-}
-@media (min-width: 768px) and (min-width: 768px) {
-  #hero h1 {
-    padding: 20x 30px;
-    font-size: 1.25rem;
   }
 }

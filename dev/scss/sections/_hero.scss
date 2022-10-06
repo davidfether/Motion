@@ -9,40 +9,40 @@
     text-align: left;
 
     @include md {
-        height: 70vh;
+        height: 80vh;
+    }
+}
 
-        @include lg {
-            height: 60vh;
+h1 {
+    margin: 0;
+    color: var(--white);
+    font-size: rem-calc(100);
 
-        }
-
-        h1 {
-            margin: 0;
-            color: var(--white);
-            font-size: rem-calc(70);
-
-            @include md {
-                font-size: rem-calc(30);
-            }
+    @include md {
+        font-size: rem-calc(50);
+    }
+}
 
 
 
-            span {
-                color: rgba(var(--mintgreen));
-            }
+span {
+    color: rgba(var(--mintgreen));
+}
 
-            button {
-                border: none;
-                background-color: rgba(var(--mintgreen));
-                color: var(--white);
-                padding: 25x 40px;
-                border-radius: 32px;
-                margin-top: 24px;
-                font-size: rem-calc(25);
 
-            }
+button {
+    border: none;
+    background-color: rgba(var(--mintgreen));
+    color: var(--white);
+    padding: 20x 80px;
+    border-radius: 90px;
+    margin-top: 24px;
+    font-size: rem-calc(15);
 
-            @include md {
-                padding: 20x 30px;
-                font-size: rem-calc(20);
-            }
+    @include md {
+        padding: 15px 40px;
+        border-radius: 100px;
+        margin-top: 12px;
+        font-size: rem-calc(25);
+    }
+}
