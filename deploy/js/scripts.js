@@ -2,10 +2,9 @@ import {
     gsap
 } from "gsap";
 
-function heranimation() {
+console.log("head-animation");
 
-    var tl = gsap / timeline();
-
-}
-
-var mainTL = gsap.timeline()
+gsap.from("#line-2", {
+    duration: 0.25,
+    x: -200
+});

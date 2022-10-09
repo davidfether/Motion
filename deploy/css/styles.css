@@ -427,6 +427,11 @@ h1 {
 }
 @media (min-width: 768px) {
   h1 {
+    font-size: 2.1875rem;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  h1 {
     font-size: 3.125rem;
   }
 }
@@ -446,7 +451,16 @@ button {
 }
 @media (min-width: 768px) {
   button {
-    padding: 15px 40px;
+    padding: 12px 35px;
+    border-radius: 100px;
+    margin-top: 16px;
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  button {
+    font-size: 1.875rem;
+    padding: 15px 45px;
     padding-top: 20;
     border-radius: 100px;
     margin-top: 16px;
