@@ -412,7 +412,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: left;
+  text-align: center;
 }
 @media (min-width: 768px) {
   #hero {
@@ -423,7 +423,7 @@ textarea {
 h1 {
   margin: 0;
   color: var(--white);
-  font-size: 6.25rem;
+  font-size: 1.25rem;
 }
 @media (min-width: 768px) {
   h1 {
@@ -439,16 +439,17 @@ button {
   border: none;
   background-color: rgba(var(--mintgreen));
   color: var(--white);
-  padding: 20x 80px;
   border-radius: 90px;
-  margin-top: 24px;
+  margin-top: 8px;
   font-size: 0.9375rem;
+  padding: 10px 30px;
 }
 @media (min-width: 768px) {
   button {
     padding: 15px 40px;
+    padding-top: 20;
     border-radius: 100px;
-    margin-top: 12px;
+    margin-top: 16px;
     font-size: 1.5625rem;
   }
 }

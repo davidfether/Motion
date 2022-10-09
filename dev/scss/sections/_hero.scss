@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: left;
+    text-align: center;
 
     @include md {
         height: 80vh;
@@ -16,7 +16,7 @@
 h1 {
     margin: 0;
     color: var(--white);
-    font-size: rem-calc(100);
+    font-size: rem-calc(20);
 
     @include md {
         font-size: rem-calc(50);
@@ -34,15 +34,16 @@ button {
     border: none;
     background-color: rgba(var(--mintgreen));
     color: var(--white);
-    padding: 20x 80px;
     border-radius: 90px;
-    margin-top: 24px;
+    margin-top: 8px;
     font-size: rem-calc(15);
+    padding: 10px 30px;
 
     @include md {
         padding: 15px 40px;
+        padding-top: 20;
         border-radius: 100px;
-        margin-top: 12px;
+        margin-top: 16px;
         font-size: rem-calc(25);
     }
 }
