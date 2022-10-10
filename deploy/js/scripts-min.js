@@ -1,1 +1,1 @@
-import{gsap}from"gsap";console.log("head-animation"),gsap.from("#line-2",{duration:.25,x:-200});
+import{gsap}from"gsap";gsap.from("line-2",{duration:.25,alpha:0,y:-200});
