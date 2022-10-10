@@ -1,9 +1,3 @@
-import {
-    gsap
-} from "gsap";
+import { gsap } from "gsap";
 
-gsap.from("line-2", {
-    duration: 0.25,
-    alpha: 0,
-    y: -200
-});
+gsap.from("#line-2", {duration: 0.25, x: -200, alpha: 0});
