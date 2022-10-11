@@ -15,7 +15,7 @@ mainTL.add(heroanimation());
 
 let button = document.querySelector("aside");
 
-var buttonTL = gsap.timeline({paused:true});
+var buttonTL= gsap.timeline({paused:true});
 buttonTL.to("#button",{duration:0.25})
     .to("aside",{duration:0.25,x:-800},"playSameTime")
     .to("form",{duration:0.25,scaleX:1},"playSameTime")
