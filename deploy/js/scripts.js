@@ -1,7 +1,5 @@
 import { gsap } from "gsap";
 
-
-
 function heroanimation(){
     var tl = gsap.timeline();
     tl.from("#header",{duration:0.75,x:200,alpha:0,delay:0.25})
