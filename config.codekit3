@@ -42,14 +42,14 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
-    "\/deploy\/js\/scripts.js" : {
+    "\/deploy\/scripts-min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/deploy\/js\/scripts-min.js",
-      "oF" : 2,
+      "oAP" : "\/deploy\/scripts-min-min.js",
+      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
@@ -125,14 +125,14 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
     },
-    "\/dev\/scripts-min.js" : {
+    "\/dev\/scripts.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/dev\/scripts-min-min.js",
-      "oF" : 0,
+      "oAP" : "\/dev\/scripts-min.js",
+      "oF" : 2,
       "sC" : 3,
       "tS" : 0
     },
