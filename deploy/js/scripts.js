@@ -1,29 +1,28 @@
 import { gsap } from "gsap";
 
-gsap.set("form"),{transformOrigin:"left center"}
+gsap.set("form"),{scaleX:0, transformOrigin:"left center"};
 
-
-function heroanimation(){
+function heroAnimation(){
     var tl = gsap.timeline();
     let mm = gsap.matchMedia();
 
     mm.add("(min-width 760px)",() => {
-      tl.from("#header",{duration:0.75,x:200,alpha:0,delay:0.25})
-        .from("#line-2",{duration:0.5,x:200,alpha:0,delay:1},"-0.25")
-        .from("#button",{duration:0.5,y:50,alpha:0,delay:1},"-0.25");
+      tl.from("#header",{duration:0.75,x:200,alpha:0})
+        .from("#line-2",{duration:0.5,x:200,alpha:0},"-0.25")
+        .from("#button",{duration:0.5,y:50,alpha:0},"-0.25");
     });
 
     mm.add("(max-width 759px)",() => {
-     tl.from("#header",{duration:0.75,y:200,alpha:0,delay:0.25})
-        .from("#line-2",{duration:0.5,y:200,alpha:0,delay:1},"same")
-        .from("#button",{duration:0.5,y :50,alpha:0,delay:1},"same");
+     tl.from("#header",{duration:0.75,y:200,alpha:0})
+        .from("#line-2",{duration:0.5,y:200,alpha:0},"same")
+        .from("#button",{duration:0.5,y :50,alpha:0},"same");
     });
 
     return tl; 
 }
 
 var mainTL = gsap.timeline(); 
-mainTL.add(heroanimation());
+    mainTL.add(heroAnimation());
 
 
 let button = document.querySelector("scale");

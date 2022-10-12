@@ -59,8 +59,8 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/deploy\/js\/scripts-min.js",
-      "oF" : 0,
+      "oAP" : "\/dev\/scripts-min.js",
+      "oF" : 2,
       "sC" : 3,
       "tS" : 0
     },
