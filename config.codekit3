@@ -34,6 +34,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/ryen-iemBbiapwaM-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 1244802,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/ryen-iemBbiapwaM-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -70,6 +83,38 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/section-1.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/section-1.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/section-2.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/section-2.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/section-2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/section-2.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/section-3.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/section-3.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.html" : {
@@ -328,7 +373,37 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/styles.scss" : {
+    "\/dev\/scss\/sections\/_section-1.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_section-1.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_section-2.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_section-2.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -337,7 +412,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/css\/styles.css",
+      "oAP" : "\/dev\/scss\/sections\/styles.css",
       "oF" : 2,
       "oS" : 0,
       "pg" : 0,
