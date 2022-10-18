@@ -15,19 +15,11 @@ $screen-lg-min: 1024px;
 // Large desktops
 $screen-xl-min: 1200px;
 
-// Large desktops
-$screen-xxl-min: 1440px;
 
+// Colors
+$white: #fff;
+$black: #000;
+$yellow: #F8C832;
+$charcoal: #222222;
 
-// SCSS Vars
-// $white: #fff;
-// $black: #000;
-
-// CSS Vars
-:root {
-    --white: #fff;
-    --black: #000;
-    --white0: 225, 255, 255;
-    --black0: 0, 0, 0;
-    --mintgreen: 129, 240, 149
-}
+// $grey: rgba(0,0,0,0.9);
