@@ -33,15 +33,21 @@ function emotionAnimation(){
     return tl;
 }
 
-tl.to("#gallery-5",{ duration: 2, y:565, rotation: 360, scrollTrigger: {trigger:"#gallery-5", scrub:true, markers:true, start:"80px, 45%", end:"600px, 70%" }})
+function skynetAnimation(){
     var tl = gsap.timeline();
     tl.to("#gallery-7",{ duration: 2, y:565, rotation: 360, scrollTrigger: {trigger:"#gallery-7", scrub:true, markers:true, start:"80px, 45%", end:"600px, 70%" }})
 
     return tl;
 }
 
+function galleryAnimation(){
+    var tl = gsap.timeline();
+    tl.from("#hero-2",{ duration: 2, x:-610,  scrollTrigger: {trigger:"#hero-2", scrub:true, markers:true, start:"50px, 80%", end: "200px, 70%"}})
 
-tl.to("#gallery-5",{ duration: 2, y:565, rotation: 360, scrollTrigger: {trigger:"#gallery-5", scrub:true, markers:true, start:"80px, 45%", end:"600px, 70%" }})
+    return tl;
+}
+
+
 
 
 mainTl.add(emotionAnimation());
