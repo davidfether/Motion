@@ -8,6 +8,7 @@ footer {
     grid-template-columns: 10px auto 10px;
     padding: 45px 0 40px;
     text-align: center;
+    z-index: 2;
 
     >div {
         grid-area: footer;

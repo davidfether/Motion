@@ -461,6 +461,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 500;
 }
 header > div {
   display: grid;
@@ -531,6 +532,7 @@ footer {
   grid-template-columns: 10px auto 10px;
   padding: 45px 0 40px;
   text-align: center;
+  z-index: 2;
 }
 footer > div {
   grid-area: footer;
