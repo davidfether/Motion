@@ -23,10 +23,11 @@ $(".nav-btns").on("click", function(){
 var mainTl = gsap.timeline();
 
 function skillsAnimation(){
-    var tl = gsap.timeline({scrollTrigger:{trigger:"skills", scrub: true, markers: false, start:"top 30%", end:"bottom 60%"}});
-    tl.from("#emotion",{ duration: 0.5, y: -200})
-    .from("#learning",{ duration: 0.5, y: -200})
-    .from("#math",{ duration: 0.5, y: -200})
+    var tl = gsap.timeline({scrollTrigger:{trigger:"skills", scrub: true, markers: true, start:"top 60%", end:"bottom 70%"}});
+    tl.from("#emotion",{ duration: 0.25, x: 50})
+    .from("#learning",{ duration: 0.25, x: 50})
+    .from("#math",{ duration: 0.25, x: 50})
+    .from("#hero-2",{ duration: 0.25, x:-600}) 
 
     return tl;
 }
@@ -39,7 +40,7 @@ function galleryAnimation(){
 }
 
 function skynetAnimation(){
-    var tl = gsap.timeline({scrollTrigger:{trigger:"#skynet", scrub:true, markers:true, start: "top 60%", end:"bottom 95%"}});
+    var tl = gsap.timeline({scrollTrigger:{trigger:"#skynet", scrub:true, markers:false, start: "top 60%", end:"bottom 95%"}});
     tl.from("#gallery-7",{ duration: 0.25, y:300},"-=2")
     .from("#gallery-1",{ duration: 0.5, x:-400, alpha:0},"-=0.5")
     .from("#gallery-4",{ duration: 0.5, x:400, alpha:0},"-=0.5")
