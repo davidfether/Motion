@@ -42,7 +42,7 @@ function skynetAnimation(){
 
 function galleryAnimation(){
     var tl = gsap.timeline();
-    tl.from("#hero-2",{ duration: 2, x:-610,  scrollTrigger: {trigger:"#hero-2", scrub:true, markers:true, start:"50px, 80%", end: "200px, 70%"}})
+    tl.from("#hero-2",{ duration: 2, x:-610,  scrollTrigger: {trigger:"#hero-2", scrub:true, markers:true, start:"50px, 80%", end: "600px, 70%"}})
 
     return tl;
 }
