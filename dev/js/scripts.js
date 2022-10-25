@@ -22,19 +22,23 @@ $(".nav-btns").on("click", function(){
 
 var mainTl = gsap.timeline();
 
-function skillsAnimation(){
-    var tl = gsap.timeline({scrollTrigger:{trigger:"skills", scrub: true, markers: true, start:"top 60%", end:"bottom 70%"}});
-    tl.from("#emotion",{ duration: 0.25, x: 50})
-    .from("#learning",{ duration: 0.25, x: 50})
-    .from("#math",{ duration: 0.25, x: 50})
-    .from("#hero-2",{ duration: 0.25, x:-600}) 
 
+function historyAnimation(){
+    var tl = gsap.timeline({scrollTrigger:{trigger:"skills", scrub: true, markers: false, start:"top 80%", end:"bottom 90%"}});
+    tl.from("#robot hero spot",{ duration: 0.15, scale:5})
+    .from("#history-first",{duration: 0.25, scale:2, y:-400, alpha:-2},"-=0.5") 
+    .from("#history-middle",{duration: 0.25, y:-400, alpha:-2},"-=0.5") 
+    .from("#history-last",{duration: 0.25, scale:2, y:400, alpha:0},"-=0.5") 
+    
+    
     return tl;
 }
 
-function galleryAnimation(){
-    var tl = gsap.timeline();
-    tl.from("#hero-2",{ duration: 2, x:-610,  scrollTrigger: {trigger:"#hero-2", scrub:true, markers:false, start:"50px, 80%", end: "600px, 70%"}})
+
+
+function skillsAnimation(){
+    var tl = gsap.timeline({scrollTrigger:{trigger:"skills", scrub: true, markers: true, start:"top 70%", end:"bottom 70%"}});
+    tl.from("#skills-content",{ duration: 0.15, x:200},"-=0.5")
 
     return tl;
 }
@@ -55,9 +59,9 @@ function skynetAnimation(){
 
 
 
-mainTl.add(skillsAnimation());
+mainTl.add(historyAnimation());
 mainTl.add(skynetAnimation());
-mainTl.add(galleryAnimation());
+mainTl.add(skillsAnimation());
 
 
 
