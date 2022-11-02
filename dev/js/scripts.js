@@ -13,11 +13,11 @@ function simpleMotion(){
       // print out the width of the line. This should make your Figma file
       // console.log(line.width)
   
-      var leftBall = document.querySelector("#left-ball");
-      leftBall = leftBall.getBBox();
+      var lineMiddle = document.querySelector("#line-middle");
+      lineMiddle = lineMiddle.getBBox();
   
-      var center = document.querySelector("#center");
-      center = center.getBBox();
+      var circle = document.querySelector("#circle-1");
+      circle = center.getBBox();
       // console.log(center.height)
 
       gsap.set("#left-ball",{x:line.width / 2 + leftBall.width / 2, transformOrigin:"center" })
