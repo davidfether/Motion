@@ -378,7 +378,8 @@
     "displayValue" : "Motion",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-ucla",
-    "iconImageWasSetByUser" : 0
+    "iconImageWasSetByUser" : 0,
+    "lastBuiltDate" : 689125807.68550706
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
