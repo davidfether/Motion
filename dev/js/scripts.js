@@ -39,8 +39,13 @@ function patternMotion(){
 function uiMotion(){
 
     var tl = gsap.timeline();
-    tl.to("#dot-1",{duration:0.5, x:250})
+    tl.to("#dot-1",{duration:0.75, x:225})
+    tl.fromTo("#rectangle-1",{drawSVG: "0% 100%"}, {duration: 0.75, rotate:90, y:36, drawSVG:"300%"},"spin");
+    tl.fromTo("#rectangle-2",{drawSVG: "0% 100%"}, {duration: 0.75, rotate:90, y:72, drawSVG:"300%"},"spin");
+    tl.fromTo("#dot-",{drawSVG:"300%"}, {duration:0.75, rotate:-90, drawSVG:"0%"},"spin");
+    tl.to("#dot-2",{duration:0.75, x:-325})
 
+    
     return tl;
 }
 
