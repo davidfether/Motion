@@ -12,7 +12,7 @@ gsap.set("#i",{transformOrigin: "center bottom"});
 gsap.set("#e",{transformOrigin: "left bottom"});
 gsap.set("#dot",{transformOrigin: "50% 50%", xPercent:-50, yPercent:-50});
 
-function tAnimation(){
+function eAnimation(){
         var tl = gsap.timeline();
         tl.from("#t-down",{duration:0.5, y:"-=500", ease:"none"})
 
@@ -31,42 +31,42 @@ function tAnimation(){
         return tl;
 }
 
-function eAnimation(){
+function vAnimation(){
         var tl = gsap.timeline();
         //rotate E 
         tl.from("#e", {duration:0.75, rotate: 120, ease: "elastic.out(1, 0.5)"})
         return tl;
 }
 
-function kAnimation(){
+function oAnimation(){
         var tl = gsap.timeline();
         // drop in K
         tl.from("#k", {duration:0.25, y:"-=200", ease: "bounce",autoAlpha:0})
         return tl;
 }
 
-function nAnimation(){
+function lAnimation(){
         var tl = gsap.timeline();
         //skew the N in
         tl.from("#n", {duration:0.25, scaleX:0})
         return tl;
 }
 
-function iAnimation(){
+function vAnimation(){
         var tl = gsap.timeline();
         // make I pop out
         tl.from("#i",{duration:0.5, scaleY:0, ease: "elastic.out(1, 0.5)"})
         return tl;
 }
 
-function tPathAnimation(){
+function ePathAnimation(){
         var tl = gsap.timeline();
          // make T path disappear
         tl.to("#t-path",{duration:0.25, scaleY:0})
         return tl;
 }
 
-function dotAnimation(){
+function starAnimation(){
         var tl = gsap.timeline();
         // dot pops out and lands
         tl.from("#dot",{duration:0.01, autoAlpha:0})
@@ -80,12 +80,13 @@ function dotAnimation(){
 
 var mainTL = gsap.timeline();
 mainTL.add(tAnimation())
+.add(starAnimation(),"-=0.55")
 .add(eAnimation(),"-=0.25")
-.add(kAnimation(),"-=0.6")
-.add(nAnimation(),"-=0.35")
-.add(iAnimation(),"-=0.6")
-.add(tPathAnimation(),"-=0.6")
-.add(dotAnimation(),"-=0.55")
+.add(vAnimation(),"-=0.6")
+.add(oAnimation(),"-=0.35")
+.add(lAnimation(),"-=0.6")
+.add(v2PathAnimation(),"-=0.6")
+.add(e2tAnimation(),"-=0.55")
 
 
 GSDevTools.create();
