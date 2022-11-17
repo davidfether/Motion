@@ -10,21 +10,12 @@ $screen-sm-min: 576px;
 $screen-md-min: 768px;
 
 // Large tablets and small desktops
-$screen-lg-min: 1024px;
+$screen-lg-min: 992px;
 
 // Large desktops
 $screen-xl-min: 1200px;
 
-// Large desktops
-$screen-xxl-min: 1440px;
+// Colors
+$white: #fff;
+$black: #000;
 
-
-// SCSS Vars
-// $white: #fff;
-// $black: #000;
-
-// CSS Vars
-:root {
-    --white: #fff;
-    --black: #000;
-  }

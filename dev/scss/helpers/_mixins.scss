@@ -102,7 +102,6 @@ html {
 
 
 
-
 /* ---------------- Media Queries ---------------- */
 // Small devices
 @mixin sm {
@@ -150,10 +149,3 @@ html {
 // @include xl{
 //     grid-template-columns: repeat(4, 1fr);
 // }
-
-// Super Extra large devices
-@mixin xxl {
-    @media (min-width: #{$screen-xxl-min}) {
-        @content;
-    }
-}
