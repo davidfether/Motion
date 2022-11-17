@@ -10,11 +10,6 @@ html {
 /* =============
     Variables
 ============= */
-:root {
-  --white: #fff;
-  --black: #000;
-}
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -357,15 +352,45 @@ template {
 /* =============
     Base
 ============= */
-.hide {
-  display: none;
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-areas: ". grid-content .";
+  grid-template-columns: 15px auto 15px;
+  height: 100vh;
+}
+@media (min-width: 1200px) {
+  .container-grid {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+.container-grid > div {
+  grid-area: grid-content;
 }
 
 /* =============
     Typography
 ============= */
-body {
-  font-family: "Montserrat", sans-serif;
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
 }
 
 /* =============
@@ -398,27 +423,16 @@ textarea {
 /* =============
     Footer
 ============= */
-#drawSVG-container {
-  min-height: 100vh;
+#logo {
   display: grid;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: auto 50% auto;
+  grid-template-areas: ". . ." ". logo ." ". . .";
+  grid-template-rows: 20% auto 20%;
+  height: 100vh;
 }
-#drawSVG-container .drawSVG {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-#drawSVG-container .drawSVG .title {
-  height: 100%;
+#logo > div {
+  grid-area: logo;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-#drawSVG-container .drawSVG .svg {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#drawSVG-container .drawSVG .svg svg {
-  width: 100%;
 }
