@@ -8,7 +8,13 @@ gsap.registerPlugin(GSDevTools, DrawSVGPlugin, MotionPathPlugin,CustomEase);
 
 function starAnimation(){
     var tl = gsap.timeline();
-    tl.from("#line-1",{duration:0.5, y:"-=500", ease:"none"})
+    tl.from("#line-1",{duration:0.5, y:"-=500"});
+    return tl;
+}
+
+function eAnimation(){
+    var tl = gsap.timeline();
+    tl.to("#letter-e-2",{duration:0.5, y:"-=500"});
     return tl;
 }
 
