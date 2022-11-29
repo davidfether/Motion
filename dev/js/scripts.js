@@ -41,57 +41,7 @@ function starAnimation(){
 }
 
 
-function eAnimation(){
-    var tl = gsap.timeline();
-  //  tl.fromTo("#e",{duration:0.25, xPercent:500, yPercent:0, drawSVG: "0% 0%"}, {xPercent:0, yPercent:0, drawSVG: "0% 110%"})
-    return tl;
-}
-
-
-function vAnimation(){
-    var tl = gsap.timeline();
-    //tl.fromTo("#v",{duration:0.25, xPercent:500, yPercent:0, drawSVG: "0% 0%"}, {xPercent:0, yPercent:0, drawSVG: "0% 110%"},"-=0.25")
-
-    return tl;
-}
-
-function oAnimation(){
-    var tl = gsap.timeline();
-   // tl.fromTo("#o",{duration:0.25, drawSVG: "25% 25%"}, {drawSVG: "25% 150%"})
-    return tl;
-}
-
-function lAnimation(){
-    var tl = gsap.timeline();
-   // tl.fromTo("#l",{duration:0.25, drawSVG: "0% 0%"}, {drawSVG: "0% 110%"})
-
-    return tl;
-}
-
-
-function v2Animation(){
-    var tl = gsap.timeline();
-  //  tl.fromTo("#v-2",{duration:0.25, drawSVG: "0% 0%"}, {drawSVG: "0% 110%"})
-
-    return tl;
-}
-
-
-function e2Animation(){
-    var tl = gsap.timeline();
-    //tl.fromTo("#e-2",{duration:0.25, drawSVG: "0% 0%"}, {drawSVG: "0% 110%"})
-
-    return tl;
-}
-
-
 var mainTL = gsap.timeline();
 mainTL.add(starAnimation())
 .add(typeAnimation())
-.add(eAnimation())
-.add(vAnimation())
-.add(oAnimation())
-.add(lAnimation())
-.add(v2Animation())
-.add(e2Animation())
 GSDevTools.create();
