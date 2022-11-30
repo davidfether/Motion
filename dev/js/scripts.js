@@ -9,8 +9,6 @@ gsap.registerPlugin(GSDevTools, DrawSVGPlugin, MotionPathPlugin,CustomEase);
 
 function boxAnimation(){
         var tl = gsap.timeline();
-        tl.to("#box-1",{duration:0.5, y:"-=500", scaleY: 100})
-        .to("#box-1",{duration:1, rotate:45})
         return tl;
 }
 
