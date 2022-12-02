@@ -6,8 +6,8 @@ import { CustomEase } from "gsap/CustomEase";
 
 gsap.registerPlugin(GSDevTools, DrawSVGPlugin, MotionPathPlugin,CustomEase);
 
-gsap.set("#box-group",{transformOrigin: "center bottom", y:150, x:50, scale:1.5});
-gsap.set("#arch-1",{transformOrigin: "center bottom", y:-278});
+gsap.set("#box-group",{transformOrigin: "50% 100%", y:150, x:50, scale:1.5});
+gsap.set("#arch-1",{transformOrigin: "50% 100%%", y:-278});
 
 function boxAnimation(){
         var tl = gsap.timeline();
@@ -31,12 +31,13 @@ function boxAnimation(){
 function lineAnimation(){
         var tl = gsap.timeline();
 
-        tl.to("#box-9",{duration:0.5, y:30, scaleY:-11})
-        .to("#box-10",{duration:0.5, y:90, scaleY:-11})
-        .to("#box-1",{duration:0.5, y:30, scaleY:-11})
-        .to("#box-2",{duration:0.5, y:30, scaleY:-11})
-        .to("#box-3",{duration:0.5, y:30, scaleY:-11})
-        .to("#box-4",{duration:0.5, y:30, scaleY:-11})
+        tl.to("#box-2",{duration:0.5, scaleY:-6})
+        .to("#box-9",{duration:0.5, scaleY:-8})
+        .to("#box-10",{duration:0.5, scaleY:-12})
+        .to("#box-1",{duration:0.5, scaleY:-12})
+        .to("#box-2",{duration:0.5, scaleY:-12})
+        .to("#box-3",{duration:0.5, scaleY:-12})
+        .to("#box-4",{duration:0.5, scaleY:-8})
         
         return tl;
 }
