@@ -47,14 +47,6 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/build\/.gitignore" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/.gitignore",
-      "oF" : 0
-    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -86,32 +78,20 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/design\/tekni-logo-update.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/design\/tekni-logo-update.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/design\/tekni-logo.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/design\/tekni-logo.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dev\/content\/logo.kit" : {
+    "\/dev\/content\/drawSVG.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/logo.html",
+      "oAP" : "\/dev\/content\/drawSVG.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/global\/footer.html",
       "oF" : 0
     },
     "\/dev\/global\/head.kit" : {
@@ -120,6 +100,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/global\/head.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/global\/header.html",
       "oF" : 0
     },
     "\/dev\/global\/scripts.kit" : {
@@ -135,17 +123,17 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/index.html",
-      "oF" : 2
+      "oAP" : "\/dev\/index.html",
+      "oF" : 0
     },
     "\/dev\/js\/scripts.js" : {
-      "bF" : 4,
+      "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/deploy\/js\/scripts-min.js",
-      "oF" : 2,
+      "oAP" : "\/dev\/js\/scripts-min.js",
+      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
@@ -299,7 +287,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_logo.scss" : {
+    "\/dev\/scss\/sections\/_drawSVG.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -308,7 +296,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_logo.css",
+      "oAP" : "\/dev\/scss\/sections\/_drawSVG.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -323,8 +311,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/css\/styles.css",
-      "oF" : 2,
+      "oAP" : "\/dev\/scss\/styles.css",
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
