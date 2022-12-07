@@ -2,7 +2,7 @@ gsap.registerPlugin(DrawSVGPlugin, GSDevTools);
 
 function simpleMotion() {
   var tl = gsap.timeline();
-  tl.from("#circle-stroke", {duration: 5, y:300, drawSVG: "0% 0%" })
+  tl.from("#line-middle", {duration: 5, y:300, drawSVG: "0% 0%" })
 
   return tl;
 }
