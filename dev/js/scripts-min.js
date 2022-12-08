@@ -1,1 +1,0 @@
-!function(){"use strict";gsap.registerPlugin(DrawSVGPlugin,GSDevTools);var i,e=gsap.timeline();e.add(((i=gsap.timeline()).from("#line-middle",{duration:5,y:300,drawSVG:"0% 0%"}),i)),GSDevTools.create({animation:e})}();
