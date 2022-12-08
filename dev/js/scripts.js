@@ -28,4 +28,4 @@ var mainTL = gsap.timeline();
 mainTL.add(simpleMotion())
 mainTL.add(patternMotion())
 
-GSDevTools.create();
+GSDevTools.create({animation: mainTL});
