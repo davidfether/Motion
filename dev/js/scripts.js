@@ -21,7 +21,11 @@ function simpleMotion() {
   return tl;
 }
 
+function patternMotion() {
+  var tl = gsap.timeline();
+
 var mainTL = gsap.timeline();
 mainTL.add(simpleMotion())
+mainTL.add(patternMotion())
 
 GSDevTools.create({animation: mainTL});
