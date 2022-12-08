@@ -11,19 +11,6 @@
     <title>Draw SVG</title>
 </head>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Draw SVG</title>
-</head>
-
 <body>
   <section id="drawSVG-container">
     <div id="simple" class="drawSVG">
@@ -34,11 +21,13 @@
       <div class="svg">
   
         <svg fill="none" viewBox="0 0 1280 1080">
+          <path fill="#1E1E1E" d="M0 0h1280v1080H0z"/>
           <g id="svg-container">
             <path fill="#fff" d="M0 0h1280v1080H0z"/>
-            <path id="circle-stroke" d="M751 484c0 61.895-49.959 112-111.5 112S528 545.895 528 484s49.959-112 111.5-112S751 422.105 751 484Z" stroke="#C0DBAB" stroke-width="20"/>
-            <rect id="line-middle" x="518" y="474" width="243" height="20" rx="10" stroke="red" stroke-width="5" fill="#C0DBAB"/>
-            <rect id="line-bottom" x="518" y="587" width="243" height="19" rx="9.5" fill="#C0DBAB"/>
+            <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M761 484c0 66.869-54.44 121-121.5 121S518 550.869 518 484h243Z" fill="#D44619"/>
+            <rect id="line-middle" x="518" y="363" width="243" height="20" rx="10" fill="#000"/>
+            <rect id="line-bottom" x="518" y="587" width="243" height="19" rx="9.5" fill="#000"/>
+            <ellipse id="circle-stroke" cx="639.5" cy="484" rx="111.5" ry="111" stroke="#000" stroke-width="20"/>
           </g>
         </svg>
   
@@ -94,7 +83,5 @@
   </section>
     <script src="js/scripts-min.js"></script>
 </body>
-
-</html>
 
 </html>
